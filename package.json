@@ -1,16 +1,5 @@
 {
   "name": "free-code-camp-verification/develop-backend&API",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-  },
   "author": "Pikj Reyderman <pikj.reyderman@gmail.com>",
   "description": "develop-backend&API verification meta tree",
   "keywords": [
@@ -19,5 +8,16 @@
     "verification"
   ],
   "license": "MIT",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.14.0",
+    "fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch server.js"
+  }
 }
